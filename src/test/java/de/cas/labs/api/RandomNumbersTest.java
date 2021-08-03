@@ -34,8 +34,8 @@ public class RandomNumbersTest {
 		int xoshiroRandom = xoshiro256PlusPlus.nextInt(0, 10);
 		int starStarRandom = l64X128StarStarRandom.nextInt(0, 10);
 
-		assertTrue(defaultRandom > 0 && defaultRandom < 10);
-		assertTrue(xoshiroRandom > 0 && xoshiroRandom < 10);
-		assertTrue(starStarRandom > 0 && starStarRandom < 10);
+		assertTrue(defaultRandom >= 0 && defaultRandom < 10);
+		assertTrue(xoshiroRandom >= 0 && xoshiroRandom < 10);
+		assertTrue(starStarRandom >= 0 && starStarRandom < 10);
 	}
 }
