@@ -1,0 +1,23 @@
+# VS Code Java Support & Eclipse
+.project
+.classpath
+.factorypath
+.recommenders
+factoryConfiguration.json
+.settings/
+.externalToolBuilders/
+.apt_generated/
+.apt_generated_test/
+
+# IntelliJ
+.idea/
+*.iml
+*.ipr
+
+# Development Files
+*.log
+hs_err_pid*
+
+# Maven
+target/
+
